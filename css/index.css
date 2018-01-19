@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div {
+    margin: 0%;
+    padding: 0%;
+}
+
+.game-container {
+    position: relative;
+    box-sizing: content-box;
+    height: 600px;
+    width: 590px;
+    border: 1px solid darkblue;
+    margin: 0px auto;
+    margin-top: 50px;
+    display: none;
+}
+
+.start-container {
+    position: relative;
+    box-sizing: content-box;
+    height: 600px;
+    width: 590px;
+    border: 1px solid #fff;
+    margin: 0px auto;
+    margin-top: 50px;
+    background: url(../image/bg.png);
+    padding-top: 380px;
+    box-sizing: border-box;
+}
+
+.start-container p {
+    text-align: center;
+}
+
+.start-container p button {
+    font-family: "微软雅黑";
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background: url(../image/button_bg.png);
+}
+
+.setting-panel p button {
+    font-family: "微软雅黑";
+    width: 80px;
+    height: 100x;
+    cursor: pointer;
+    background: url(../image/pausebg.png);
+}
+
+.start-container p button:hover {
+    background: url(../image/button_hover_bg.png);
+}
+
+.game-main-panel {
+    position: absolute;
+    left: 100px;
+    height: 600px;
+    top: 0;
+    width: 390px;
+    border: 1px solid darkblue;
+}
+
+.next-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: url(../image/nextbg.png);
+}
+
+.setting-panel {
+    background: url(../image/bg2.png);
+    position: absolute;
+    top: 100px;
+    right: 0;
+    height: 380px;
+    text-align: center;
+    width: 100px;
+}
+
+.score-panel {
+    position: absolute;
+    right: 0;
+    bottom: 120px;
+    width: 100px;
+    height: 100px;
+}
+
+.high-score-panel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 120px;
+    background: url(../image/highscorebg.png);
+}
+
+.level-body {
+    background: url(../image/levelbg.png);
+    height: 100px;
+    width: 100px;
+}
+
+.time {
+    background: url(../image/timebg.png);
+    height: 100px;
+    width: 100px;
+}
+
+.bg1 {
+    background: url(../image/bg1.png);
+    height: 400px;
+    width: 100px
+}
+
+.panel-body {
+    text-align: center;
+    line-height: 70px;
+}
+
+.help-panel .panel-body,
+.setting-panel .panel-body {
+    line-height: normal;
+}
+
+.timer-panel,
+.next-panel,
+.score-panel {
+    border-bottom: 1px solid darkblue;
+}
